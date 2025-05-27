@@ -16,12 +16,12 @@ An intelligent AI-powered chatbot capable of understanding and responding to hum
 
 ## Features
 
-- 🔍 Intent recognition and entity extraction
-- 💬 Context-aware responses
-- 🧠 Pre-trained language models (e.g., spaCy, BERT, or GPT-based)
-- 🌐 Web-based chat interface (optional)
-- 📚 Continuous learning and custom training support
-- 🛠️ Modular architecture for easy integration with APIs and databases
+- Intent recognition and entity extraction
+- Context-aware responses
+- Pre-trained language models (e.g., spaCy, BERT, or GPT-based)
+- Web-based chat interface (optional)
+- Continuous learning and custom training support
+- Modular architecture for easy integration with APIs and databases
 
 ## Technologies Used
 
