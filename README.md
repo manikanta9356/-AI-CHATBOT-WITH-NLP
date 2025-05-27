@@ -99,4 +99,6 @@ ai-chatbot-nlp/
 
  Add multilingual support
 
+## output
 
+![Image](https://github.com/user-attachments/assets/c7087037-0c7a-4723-a71f-03fde6dba1b8)
