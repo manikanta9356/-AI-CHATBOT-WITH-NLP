@@ -99,9 +99,60 @@ ai-chatbot-nlp/
 
  Add multilingual support
 
-## output
+## how to run
 
-![Image](https://github.com/user-attachments/assets/5419eb0d-3625-4e06-8c91-56f90d0130c7)
+## Install spaCy and the Language Model
+Open your terminal (Command Prompt, PowerShell, or a code editor terminal like VS Code), and run:
 
+pip install spacy
+Then download the en_core_web_md model (which your code uses):
 
+python -m spacy download en_core_web_md
+If the medium model (md) is too large or gives issues, you can use the smaller one:
 
+python -m spacy download en_core_web_sm
+And in your code, change this line:
+
+nlp = spacy.load("en_core_web_md")
+nlp = spacy.load("en_core_web_sm")
+## Save Your Code
+Save your chatbot code in a file. For example:
+
+chatbot.py
+Make sure your file looks something like this at the top:
+
+import spacy
+
+nlp = spacy.load("en_core_web_md")  # Or 'en_core_web_sm' if needed
+
+Define your FAQ...
+Also, fix one small issue in your chat loop:
+
+if user_input.strip() == "exit":
+    print("ChatBot: bye! Have a nice day!")  # Manually print goodbye
+    break
+Because "exit" isn't in your faq dictionary.
+
+## Run Your Code
+In the same directory where you saved chatbot.py, run:
+
+python chatbot.py
+You should see:
+
+ChatBot: Hello! Ask me something. (Type 'exit' to quit)
+You:
+Then you can chat with your bot.
+
+## Example Conversation
+
+You: what is your name
+ChatBot: I am a chatbot.
+
+You: what is machine learning
+ChatBot: Machine learning is a branch of AI that enables systems to learn from data and improve over time.
+
+You: bye
+ChatBot: bye! Have a nice day!
+
+You: exit
+ChatBot: bye! Have a nice day!
