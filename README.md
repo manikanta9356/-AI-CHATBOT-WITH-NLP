@@ -101,6 +101,6 @@ ai-chatbot-nlp/
 
 ## output
 
-![Screenshot (126)](https://github.com/user-attachments/assets/37c294ec-7a09-4241-b6c7-dc901d596a6c)
+(https://github.com/manikanta9356/-AI-CHATBOT-WITH-NLP/issues/2#issue-3094105247)
 
 
