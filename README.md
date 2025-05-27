@@ -101,6 +101,7 @@ ai-chatbot-nlp/
 
 ## output
 
-![Image](https://github.com/user-attachments/assets/bf628250-1291-4964-b13f-7f0562c90923)
+![Chatbot Output](images/chatbot_output.png)
+
 
 
