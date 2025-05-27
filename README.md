@@ -52,11 +52,16 @@ If using a web interface, open index.html in your browser or run the frontend de
 Example Usage
 You can interact with the bot using the command line or a web interface. Sample inputs:
 
-"What's the weather like today?"
-
-"Book a table for two at 7 PM."
-
-"Tell me a joke."
+"what is your name": "I am a chatbot.",
+    "how are you": "I'm doing well, thank you!",
+    "what can you do": "I can answer your queries using NLP.",
+    "what is nlp": "NLP stands for Natural Language Processing, a field of AI that deals with human language.",
+    "what is python": "Python is a high-level, interpreted programming language known for its readability and simplicity.",
+    "what is an internship": "An internship is a short-term work experience that allows students to gain practical skills in a specific field.",
+    "what is your purpose": "I'm here to help you complete your internship tasks and answer basic questions.",
+    "what is github": "GitHub is an online platform to host and share code using Git version control.",
+    "what is machine learning": "Machine learning is a branch of AI that enables systems to learn from data and improve over time.",
+    "can you help me": "Of course! Ask me any question related to Python, the internship, or general concepts."
 
 The chatbot parses the input, identifies intent, and generates a relevant response.
 
